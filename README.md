@@ -47,6 +47,17 @@ Then ask: *"My old sessions disappeared after I switched Claude accounts, bring 
 
 The model continues from where that session stopped. If it had an unfinished task (say "fix it and deploy"), a bare "hi" can make it pick that task up again. Make your first message say exactly what you want.
 
+## FAQ
+
+**Do I have to restart Claude every time?**
+Only right after an import (or an undo). The app reads the sidebar list once at startup, so newly imported sessions show up after you fully quit and reopen it. After that they stay in the list; no further runs or restarts are needed.
+
+**I switch between accounts regularly. What then?**
+Run the tool again whenever you want the other account's newer sessions. Sessions already imported are skipped, so only new ones are added. Then restart Claude once.
+
+**How do I undo?**
+`npx github:EricZehuaChang/claude-desktop-account-sessions --undo`, then restart Claude. The imported files are moved to the backup folder, not deleted.
+
 ## Options
 
 | Option | What it does |
