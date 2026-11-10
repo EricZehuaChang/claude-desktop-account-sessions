@@ -1,0 +1,42 @@
+{
+  "name": "claude-account-sessions",
+  "version": "0.1.0",
+  "description": "Bring back Claude desktop Code sidebar sessions after switching Claude accounts on the same computer.",
+  "type": "module",
+  "bin": {
+    "claude-account-sessions": "skills/claude-account-sessions/scripts/claude-account-sessions.mjs"
+  },
+  "files": [
+    "skills/",
+    ".claude-plugin/",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-desktop",
+    "anthropic",
+    "sessions",
+    "account-switch",
+    "history",
+    "migration",
+    "claude-skill",
+    "claude-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricZehuaChang/claude-desktop-account-sessions.git"
+  },
+  "bugs": "https://github.com/EricZehuaChang/claude-desktop-account-sessions/issues",
+  "homepage": "https://github.com/EricZehuaChang/claude-desktop-account-sessions#readme",
+  "author": "EricZehuaChang",
+  "license": "MIT"
+}

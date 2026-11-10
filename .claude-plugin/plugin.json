@@ -1,0 +1,13 @@
+{
+  "name": "claude-account-sessions",
+  "description": "Bring back Claude desktop Code sidebar sessions after switching Claude accounts on the same computer. 切换 Claude 账号后找回左侧栏历史会话。",
+  "version": "0.1.0",
+  "author": {
+    "name": "EricZehuaChang",
+    "url": "https://github.com/EricZehuaChang"
+  },
+  "homepage": "https://github.com/EricZehuaChang/claude-desktop-account-sessions",
+  "repository": "https://github.com/EricZehuaChang/claude-desktop-account-sessions",
+  "license": "MIT",
+  "keywords": ["claude-desktop", "sessions", "account-switch", "history", "migration"]
+}

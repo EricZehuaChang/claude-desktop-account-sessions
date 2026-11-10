@@ -1,0 +1,19 @@
+{
+  "name": "claude-account-sessions",
+  "owner": {
+    "name": "EricZehuaChang",
+    "url": "https://github.com/EricZehuaChang"
+  },
+  "metadata": {
+    "description": "Restore Claude desktop sidebar sessions after switching accounts on the same computer.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-account-sessions",
+      "source": "./",
+      "description": "Bring back Claude desktop Code sidebar sessions after switching Claude accounts on the same computer. 切换 Claude 账号后找回左侧栏历史会话。",
+      "version": "0.1.0"
+    }
+  ]
+}
